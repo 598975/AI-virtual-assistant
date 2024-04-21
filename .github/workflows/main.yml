@@ -6,7 +6,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Setup and run tests
-        working-directory: ./app
+        working-directory: ./frontend
         run: |
            yarn install
            yarn run dev
